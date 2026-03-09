@@ -3,7 +3,9 @@
 ---
 
 ## 📌 Project Overview
+
 This project is an end-to-end data engineering solution designed to ingest, validate, and transform global market data in real-time. It bridges the gap between raw streaming APIs and curated cloud data warehousing, moving data from AWS Kinesis through Amazon S3 and into Snowflake. The system ensures 100% data integrity for over 2,200 markets across 36 countries, enabling high-precision statistical analysis.
+
 ---
 
 ## 🎯 Objectives
