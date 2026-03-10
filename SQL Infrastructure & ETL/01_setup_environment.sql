@@ -1,4 +1,4 @@
--- 1. Use the "Home" we created
+-- 1. Create schema
 USE DATABASE MARKET_INSIGHTS_DB;
 USE SCHEMA RAW_DATA_SCHEMA;
 
@@ -8,4 +8,5 @@ CREATE OR REPLACE STAGE market_data_stage
   STORAGE_INTEGRATION = s3_market_data_integration;
 
 -- 3. THE FINAL LIST COMMAND
+
 LIST @market_data_stage;
