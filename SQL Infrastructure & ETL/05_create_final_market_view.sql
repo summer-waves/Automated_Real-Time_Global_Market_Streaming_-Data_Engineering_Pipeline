@@ -11,5 +11,6 @@ SELECT
     END AS price_numeric
 FROM global_market_data;
 
--- Check your new math-ready data
+-- Checking math-ready data
+
 SELECT * FROM global_market_analysis LIMIT 10;
